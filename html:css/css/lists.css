@@ -1,0 +1,464 @@
+.backcolor {
+    height: 100%;
+    width:100%;
+}
+
+.resultspacer {
+    height:40px;
+}
+
+.curtain {
+    background-color:black;
+    opacity:0.7;   
+}
+
+.backcolor2 {
+ height:100%;;
+    background-color:#FFF;
+width:780px;
+    margin-left:90px;
+    overflow:auto;
+}
+
+.backbutton {
+ background-image:url("../img/skip_flipped_white.png");
+    height:90px;
+    width:60px;
+    margin-left:15px;
+    margin-top:280px;
+    float:left;
+    opacity:0.9;
+    
+}
+
+.backbutton:hover {
+    opacity:0.6;
+}
+
+.navback {
+ 
+    height:10px;
+    width:960px;
+    opacity:0.6;
+    
+}
+
+.navdistance {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navprice {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding-top:15px;
+}
+
+.navintensity {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navrating {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navdistance:hover, .navprice:hover, .navintensity:hover, .navrating:hover, .navgroup:hover, .navduration:hover {
+    background:red;
+    color:white;
+}
+
+.navgroup {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navduration {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navspace {
+    height:15px;
+}
+
+.first_item {
+ height:104px;
+    width:100%;
+    background-color:blue;
+    opacity:1.0;
+
+}
+
+.second_item {
+ height:104px;
+    width:100%;
+    background-color:red;
+    opacity:1.0;
+}
+
+.third_item {
+ height:104px;
+    width:100%;
+    background-color:green;
+    opacity:1.0;
+}
+
+.fourth_item {
+ height:104px;
+    width:100%;
+    background-color:orange;
+    opacity:1.0;
+}
+
+.fifth_item {
+ height:104px;
+    width:100%;
+    background-color:purple;
+    opacity:1.0;
+}
+
+.sixth_item {
+ height:100px;
+    width:99.4%;
+    background-color:pink;
+    opacity:1.0;
+        border:2px dashed #fff;
+}
+
+.first_item:hover, .second_item:hover, .third_item:hover, .fourth_item:hover, .fifth_item:hover, .sixth_item:hover {
+    opacity:0.9;
+}
+
+.firstcolumn {
+        height:100%;
+    width:100%;
+    background-color:green;
+    float:left;
+    
+}
+
+.createcolumn {
+        height:100%;
+    width:100%;
+    background-color:green;
+    float:left;
+    
+}
+
+.secondcolumn {
+        height:100%;
+    width:0%;
+    background-color:red;
+    float:left;
+    
+}
+
+.countcolumn {
+        height:100%;
+    width:0%;
+    background-color:red;
+    float:left;
+    font-size:30px;
+    color:white;
+    margin-top:-65px;
+    margin-left:40px;
+    
+}
+
+.list_item {
+ height:45px;
+    width:100%;
+    background-color:white;
+    opacity:1.0;
+}
+
+.openbutton {
+    float:right;
+    margin-right:40px;
+    margin-top:-65px;
+    font-size:30px;
+    color:white;
+}
+
+
+.firsttitle {
+    color:white;
+    font-size:23px;
+    height:30px;
+    width:40%;
+    margin-left:10px;
+    margin-top:5px;
+    
+    
+}
+
+.firstloc {
+    color:white;
+    font-size:14px;
+    height:30px;
+    width:60%;
+    float:right;
+    margin-top:-22px;
+}
+
+.iconspace {
+    width:50%;
+    height:30px;
+    background-color:white;
+    margin-left:10px;
+    margin-top:7px;
+    opacity:0.9;
+    
+}
+
+.ratingbar {
+    width:38%;
+    height:30px;
+    background-color:black;
+    opacity:0.9;
+    margin-left:10px;
+    margin-right:6px;
+    margin-top:7px;
+    
+}
+
+.addfavorite {
+    height:30px;
+    float:right:
+        width:20%;
+    
+}
+
+.distance {
+ float:right;
+    font-size:18px;
+    color:white;
+    margin-top:-31px;
+    margin-right:20px;
+    border:0px solid #fff;
+    padding:3px;
+    background-color:black;
+}
+
+.stars {
+    width:100%;
+
+}
+
+.stars img {
+    margin-top:1px;
+    padding:0px;
+    width:15%;
+}
+
+.choosebutton {
+    height:90px;
+    width:60px;
+    margin-left:300px;
+    margin-top:10%;
+    color:white;
+    background-image:url(../img/skip.png);
+    
+    
+}
+
+.choosebutton:hover {
+    opacity:0.5;
+}
+
+.description {
+    font-size:12px;
+    color:white;
+    margin-left:10px;
+    margin-top:7px;
+    border:1px solid #fff;
+    padding-left:5px;
+    margin-right:8px;
+}
+
+a.favbutton {
+    background:url('sfas');
+    float:right;
+    margin-top:-40px;
+    margin-right:20px;
+    font-size:35px;
+    color:yellow;
+    
+    
+}
+
+
+#rating1 {
+ background-image: url('../img/Rating4.png');    
+    height:100%;
+    margin-left:3px;
+}
+
+#icons1a {
+    background-image: url('../img/activityicons/DurationLong.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:3px;
+}
+
+#icons1b {
+    background-image: url('../img/activityicons/GroupCouple.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:30px;
+    margin-top:-30px;
+}
+
+#icons1c {
+    background-image: url('../img/activityicons/Intensity9.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:60px;
+    margin-top:-30px;
+}
+
+#icons1d {
+    background-image: url('../img/activityicons/PriceExpensive.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:90px;
+    margin-top:-30px;
+}
+
+#fav1 {
+    background-image: url('../img/activityicons/Favorite.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-top:-30px;
+    margin-left:90%;
+}
+
+p.createnew {
+
+    font-size:22px;
+    color:white; 
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:30px;
+    border:0px dashed #fff;
+}
+
+p.favorites {
+
+    font-size:22px;
+    color:white; 
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:30px;
+}
+
+p.items {
+
+    font-size:22px;
+    color:black; 
+    margin:0px;
+
+}
+
+p.items:hover {
+
+    background-color:black;
+    color:white;
+
+  opacity:0.5;
+
+}
+
+#createnewlist {
+    background-color:#83321D;
+}
+
+#createnewlistbutton {
+    background-color:#83321D;
+}
+
+#firstitem {
+    background-color: #92A0B0;   
+}
+
+#seconditem {
+     background-color: #B2F7F6;   
+}
+
+#thirditem {
+     background-color: #FFAC8C;   
+}
+
+#fourthitem {
+     background-color: #FFD679 ;   
+}
+
+#fifthitem {
+     background-color: #C2911A;   
+}
+
+#firstitembutton {
+    background-color: #92A0B0;   
+}
+
+#seconditembutton {
+     background-color: #B2F7F6;   
+}
+
+#thirditembutton {
+     background-color: #FFAC8C;   
+}
+
+#fourthitembutton {
+     background-color: #FFD679 ;   
+}
+
+#fifthitembutton {
+     background-color: #C2911A;   
+}
+
+#test {
+ display:none;   
+}
+
+.spacemeout {
+    height:1px;
+width:100%;
+    background-color:grey;
+    opacity:0.5;
+}
+
+#favoritesdiv, #progressiondiv, #romanticdiv, #suggestionsdiv {
+    display: none;
+}
+

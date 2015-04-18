@@ -1,0 +1,44 @@
+.navigation {
+ margin-left:235px;    
+    
+}
+
+.resultbutton {
+ border: 2px solid #000;   
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-top:15px;
+}
+.resultbutton:hover {
+    opacity:0.7;
+}
+
+.backbutton {
+ background-image:url("../img/skip_flipped.png");
+    height:90px;
+    width:60px;
+    margin-left:15px;
+    margin-top:-300px;
+    opacity:0.9;
+    float:left;
+    
+}
+
+.backbutton:hover {
+    opacity:0.6;
+}
+
+.skipbutton {
+ background-image:url("../img/skip.png");
+    height:90px;
+    width:60px;
+    margin-left:870px;
+    margin-top:-300px;
+    opacity:0.9;
+    float:left;
+    
+}
+
+.skipbutton:hover {
+    opacity:0.6;
+}

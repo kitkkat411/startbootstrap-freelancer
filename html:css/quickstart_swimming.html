@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+  
+  <meta charset="utf-8" />
+  <title>Results - Fierce</title>
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/fierce.css" />
+  <link rel="stylesheet" href="css/results.css" />
+  <link rel="stylesheet" href="css/tabs.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+  <script language="JavaScript" type="text/javascript">
+    function login(showhide){
+      if(showhide == "show"){
+       document.getElementById('popupbox').style.visibility="visible";
+      }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#show_div").mouseover(function() { $("#popupabout").css('visibility','visible'); });
+      $("#show_div").mouseout(function() { $("#popupabout").css('visibility','hidden'); });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container_24 headercolor">
+  	<div class="grid_1">
+	  	<div class="iconbar">
+	  		<a href="#"><p><img src="img/homesearch.png" class="icon" /></p></a>
+		  </div>
+	  </div>
+	<div class="grid_1">
+		 <div class="iconbar">
+			  <a href="#"><p><img src="img/homeabout.png" class="icon" /></p></a>
+		</div>
+	</div>
+	<div class="grid_1 suffix_15">
+		<div class="iconbar">
+			<a href="#"><p><img id="show_div" src="img/homehelp.png" class="icon" /></p></a>
+		</div>
+	</div>
+
+  <div id="popupabout"> 
+    With San Diego's gorgeous weather, there's no need to stay indoors. <b>Fierce</b> is a website designed to help you create your own outdoor adventure.
+  </div> 
+
+  <div id="popupbox"> 
+    <form name="login" action="" method="post">
+      <center>
+        Username:
+          <input name="username" size="14" />
+        Password:
+          <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="Login" />
+      </center>
+    </form>
+    <br />
+    <center><div class="loginline"></div></center>
+    <center>Not registered? <a href="profile.html">Sign up</a>.</center>
+    <center><a href="javascript:login('hide');">Close.</a></center> 
+  </div> 
+ 
+  <div class="prefix_4 grid_2 loginbar">
+ 	  <div class="p1 logroll"><a href="javascript:login('show');" class="hoverbar goingup">login</a></div>
+  </div>
+  
+  <div class="prefix_9 grid_7 suffix_8 logo">
+  	<a href="index.html"><img src="img/logo.png"></a>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+  
+  <!-- end navigation -->
+  <div class="navback">
+     <!--     <div class="grid_4 navdistance">Distance</div>
+           <div class="grid_4 navprice">Price</div>
+           <div class="grid_4 navintensity">Intensity</div>
+           <div class="grid_4 navrating">Rating</div>
+           <div class="grid_4 navgroup">Group Size</div>
+           <div class="grid_4 navduration">Duration</div> -->
+      
+    <article class="tabs">
+
+	<section id="tab1">
+		<h2><a href="#tab1">Distance</a></h2>
+	</section>
+	
+	<section id="tab2">
+		<h2><a href="#tab2">Price</a></h2>
+	</section>
+	
+	<section id="tab3">
+		<h2><a href="#tab3">Intensity</a></h2>
+	</section>
+          
+    <section id="tab4">
+		<h2><a href="#tab4">Rating</a></h2>
+	</section>
+          
+          <section id="tab5">
+		<h2><a href="#tab5">Group Size</a></h2>
+	</section>
+          
+          <section id="tab6">
+		<h2><a href="#tab6">Duration</a></h2>
+	</section>
+
+
+
+
+</article>
+      </div>
+      
+       <div class="clear"></div>
+      
+<!--  <div class="grid_24"> -->
+    <div class="bgblur">
+
+        <div class="backcolor">
+            <div class="curtain">
+                <a href="quickstart.html"><div class="backbutton"></div></a>
+                <div class="backcolor2">
+                
+                <div class="first_item">
+                    <div class="firstpic" id="lajollacove">
+                        <div class="firsttitle">La Jolla Cove</div>
+                        
+                        <div class="otherloc2">1110 Coast Blvd, La Jolla, CA 92037 </div>
+                        
+                        <div class="ratingbar">
+                            <div class="stars"><div id="rating1"></div> </div>
+                        </div>
+                        
+                        <div class="distance"> 
+                        3.5 miles away
+                        </div>
+                        
+                        <div class="description">One of the best open water swimming spots in Southern California for swimming with the fishes.</div>
+                        
+                        <div class="iconspace">
+                                    <div id="icons1a"> </div>
+                                    <div id="icons1b"> </div>
+                                    <div id="icons1c"> </div>
+                                    <div id="icons1d"> </div>
+                        </div>
+                        <div class="addfavorite">
+                            <a href=""><div id="fav1"></div></a> 
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="firstpic" id="lajollacovepic">
+                        <a href="location_LaJollaCove.html"><div class="choosebutton"> </div></a>
+                    
+                    </div>
+                </div>
+                    
+                <div class="second_item darken">
+                    <div class="secondpic" id="">
+                    </div>
+                </div>
+                <div class="third_item darken">
+                    <div class="thirdpic"> </div>
+                    <div class="thirdpic"></div>
+                </div>
+                
+                <div class="fourth_item darken">
+                    <div class="fourthpic"> </div>
+                    <div class="fourthpic"></div>
+                </div>
+    
+            
+            
+            </div>
+            
+        </div>
+        </div>
+        </div>
+        
+
+  
+
+  <!--    <div class="trickdiscover"></div> -->
+    </div>
+  </div>
+  
+  <div class="clear"></div>
+
+</div>
+<!-- end .container_16 -->
+</body>
+</html>

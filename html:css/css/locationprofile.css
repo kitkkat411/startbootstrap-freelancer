@@ -1,0 +1,106 @@
+.locationslideshow {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.locationfavorite {
+  width: 93%;
+  height: 65px;
+  float: left;
+  background-color: #000;
+  border-bottom-left-radius: 20px;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.slidearrow {
+  width: 90%;
+  height: 27px;
+  float: left;
+  background-color: #000;
+  border-radius: 5px;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  color: #FFF;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+.locationrating {
+  width: 100%;
+  height: 32px;
+  background-color: #606060;
+  padding: 2px;
+  float: left;
+}
+
+.locationicons {
+  width: 100%;
+  height: 32px;
+  background-color: #BABABA;
+  padding: 2px;
+  padding-left: 2px;
+  float: left;
+}
+
+.locationshare {
+  width: 100%;
+  height: 32px;
+  background-color: #606060;
+  padding: 2px;
+  float: left;
+}
+
+.locationbody {
+  width: 834px;
+  height: 435px;
+  background-color: #E8E8E8;
+  padding: 20px;
+}
+
+.locationtitle {
+  background-color: #C8192A;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px;
+  margin-right: 5px;
+}
+
+.space3 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 75px;
+}
+
+.headline {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.headlinethin {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    margin-bottom: -10px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}

@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+  
+  <meta charset="utf-8" />
+  <title>Gliderport - Fierce</title>
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/fierce.css" />
+  <link rel="stylesheet" href="css/locationprofile.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script language="JavaScript" type="text/javascript">
+    function login(showhide){
+      if(showhide == "show"){
+       document.getElementById('popupbox').style.visibility="visible";
+      }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#show_div").mouseover(function() { $("#popupabout").css('visibility','visible'); });
+      $("#show_div").mouseout(function() { $("#popupabout").css('visibility','hidden'); });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container_24 headercolor">
+    <div class="grid_1">
+      <div class="iconbar">
+        <a href="#"><p><img src="img/homesearch.png" class="icon" /></p></a>
+      </div>
+    </div>
+  <div class="grid_1">
+     <div class="iconbar">
+        <a href="#"><p><img src="img/homeabout.png" class="icon" /></p></a>
+    </div>
+  </div>
+  <div class="grid_1 suffix_15">
+    <div class="iconbar">
+      <a href="#"><p><img id="show_div" src="img/homehelp.png" class="icon" /></p></a>
+    </div>
+  </div>
+
+  <div id="popupabout"> 
+    With San Diego's gorgeous weather, there's no need to stay indoors. <b>Fierce</b> is a website designed to help you create your own outdoor adventure.
+  </div> 
+
+  <div id="popupbox"> 
+    <form name="login" action="" method="post">
+      <center>
+        Username:
+          <input name="username" size="14" />
+        Password:
+          <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="Login" />
+      </center>
+    </form>
+    <br />
+    <center><div class="loginline"></div></center>
+    <center>Not registered? <a href="profile.html">Sign up</a>.</center>
+    <center><a href="javascript:login('hide');">Close.</a></center> 
+  </div>  
+ 
+  <div class="prefix_4 grid_2 loginbar">
+    <div class="p1 logroll"><a href="javascript:login('show');" class="hoverbar goingup">login</a></div>
+  </div>
+  
+  <div class="prefix_9 grid_7 suffix_8 logo">
+    <a href="index.html"><img src="img/logo.png"></a>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+  
+  <!-- end navigation -->
+  <div class="grid_24">
+    <div class="locationslideshow" style="background-image: url(https://lh5.googleusercontent.com/-4kF_9YYSiZU/UX7rruU4QFI/AAAAAAAAAK4/_lGuWRzWb_M/s0/photo.jpg); background-repeat: no-repeat; background-position: 0px -180px;">
+      <div class="prefix_22 grid_2">
+        <div class="locationfavorite">
+          <br>
+          <center><img src="img/favorite.png" /></center>
+        </div>
+      </div>
+      
+      <div class="grid_24">
+        <div class="space3"></div>
+      </div>
+
+      <div class="prefix_1 grid_1">
+        <div class="slidearrow">
+          <center>&#65513;</center>
+        </div>
+      </div>
+      <div class="prefix_20 grid_1">
+        <div class="slidearrow">
+          <center>&#65515;</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_22 suffix_1">
+    <font class="locationtitle">San Diego Parasailing Adventures</font> <font style="font-size: 18px; color: #606060;">844 W Mission Bay Dr, San Diego CA 92109 </font>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_4">
+    <div class="locationrating">
+      <center><img style="padding-left: 3px" src="img/rating4.png" /></center>
+    </div>
+  </div>
+  <div class="grid_17">
+    <div class="locationicons">
+      <img src="img/durationmedium.png" /> <img src="img/groupsmall.png" /> <img src="img/intensity4.png" /> <img src="img/priceexpensive.png" />
+    </div>
+  </div>
+  <div class="grid_1 suffix_1">
+    <div class="locationshare">
+      <img src="img/share.png" />
+    </div>
+  </div>
+
+  <div class="prefix_1 grid_21">
+    <div class="locationbody">
+      <font class="headline">Description</font><br>
+     This powerboat/gliding ride around Mission Bay is fun and exciting for all ages! San Diego Parasailing Adventures offers “Winch Direct Parasailing” which is the safest and most widely accepted form of parasailing in the world today. The entire boating adventure lasts about 1 ½ hours with each person flying in the air for about 6 to 8 
+     minutes.  <br><br>
+
+      <font class="headline">Reviews</font> <font class="headlinethin">(2)</font><br>
+      <p style="float: left; margin-right: 10px;">
+        <img src="https://graph.facebook.com/1165145493/picture?width=120&height=120" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Eric H.</font><br>
+          7/18/14<br>
+        <img src="img/rating5.png" width="90%" />
+      </p>
+      <p style="text-align:left;"> 
+      This was a great once in a lifetime experience and definitely worth it.  We were a family of four, including two teenagers.   The great thing about this company is that you can go up in pairs, so it is a shared experience as opposed to going up alone and not being able to share the view with someone. We were up in the air for about 8-10 minutes, and though that may seem short, after a while you have gotten the experience of being up in the air and seen the beautiful view of the ocean and San Diego.
+      </p>
+
+      <hr class="style-one"><br>
+
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://cdn-assets.alltrails.com/uploads/photo/image/10817271/medium_square_.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Lucinda V.</font><br>
+          8/3/14<br>
+        <img src="img/rating4.png" width="90%" />
+      </p>
+      <p style="text-align:left;">
+      My BF and I came here for the first time during Memorial Day and had a good time! The staff was very informative and very clear as to what to do and they made sure we enjoyed ourselves during our adventure. The only thing is being up in the air for only 6-8 minutes and paying $89.95 per person. This is quite a bit of money and we were only over the ocean for a total of 1 hour when we were told we would be there for 1.25, so I felt that our adventure was a bit rushed, but we had a good time nonetheless.
+      </p>
+
+    </div>
+  </div>
+
+</div>
+<!-- end .container_16 -->
+</body>
+</html>

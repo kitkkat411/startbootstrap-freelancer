@@ -1,0 +1,252 @@
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+  
+  <meta charset="utf-8" />
+  <title>Discover - Fierce</title>
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/fierce.css" />
+  <link rel="stylesheet" href="css/discover.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+  <script language="JavaScript" type="text/javascript">
+    function login(showhide){
+      if(showhide == "show"){
+       document.getElementById('popupbox').style.visibility="visible";
+      }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+      }
+    } 
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#show_div").mouseover(function() { $("#popupabout").css('visibility','visible'); });
+      $("#show_div").mouseout(function() { $("#popupabout").css('visibility','hidden'); });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container_24 headercolor">
+  	<div class="grid_1">
+	  	<div class="iconbar">
+	  		<a href="#"><p><img src="img/homesearch.png" class="icon" /></p></a>
+		  </div>
+	  </div>
+	<div class="grid_1">
+		 <div class="iconbar">
+			  <a href="#"><p><img src="img/homeabout.png" class="icon" /></p></a>
+		</div>
+	</div>
+	<div class="grid_1 suffix_15">
+		<div class="iconbar">
+			<a href="#"><p><img id="show_div" src="img/homehelp.png" class="icon" /></p></a>
+		</div>
+	</div>
+
+  <div id="popupabout"> 
+    With San Diego's gorgeous weather, there's no need to stay indoors. <b>Fierce</b> is a website designed to help you create your own outdoor adventure.
+  </div> 
+
+  <div id="popupbox"> 
+    <form name="login" action="" method="post">
+      <center>
+        Username:
+          <input name="username" size="14" />
+        Password:
+          <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="Login" />
+      </center>
+    </form>
+    <br />
+    <center><div class="loginline"></div></center>
+    <center>Not registered? <a href="profile.html">Sign up</a>.</center>
+    <center><a href="javascript:login('hide');">Close.</a></center> 
+  </div> 
+ 
+  <div class="prefix_4 grid_2 loginbar">
+ 	  <div class="p1 logroll"><a href="javascript:login('show');" class="hoverbar goingup">login</a></div>
+  </div>
+  
+  <div class="prefix_9 grid_7 suffix_8 logo">
+  	<a href="index.html"><img src="img/logo.png"></a>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+  
+  <div class="grid_12">
+    <div class="discover">
+      Discover
+ 	  </div>
+  </div>
+  <div class="grid_12">
+    <a href="quickstart.html">
+  	  <div class="quickstartbutton">
+  	  	Quickstart
+ 	    </div>
+    </a>
+  </div>
+  
+  <div class="clear"></div>
+  
+  <!-- end navigation -->
+  <div class="grid_24">
+    <div class="bgblur">
+    <!--  <a href=""><div class="backbutton"></div></a> -->
+    <div class="space2"></div>
+       
+    <div class=" grid_13 navigation">
+      <div class="grid_2"><div class="chosenfilters" id='nav1'> Distance >>  </div></div>
+      <div class="grid_2"><div class="chosenfilters" id='nav2'> Price >>     </div></div>
+      <div class="grid_2"><div class="chosenfilters" id='nav3'> Intensity >> </div></div>
+      <div class="grid_2"><div class="chosenfilters" id='nav4'> Size >>      </div></div>
+      <div class="grid_2"><div class="chosenfilters" id='nav5'> Duration >>  </div></div>
+      <div class="grid_2">
+          <a href="results.html"><div class="chosenfilters resultbutton" id='nav6'>Get Results</div></a>
+      </div>
+    </div>
+        
+    <div class="filterq" id="questionText"> How far are you willing to travel? </div> 
+    <div class="prefix_6 grid_6"><div class="filterchoice" id="c1"> 5 mi.  </div></div>
+    <div class="grid_6 suffix_1"><div class="filterchoice" id="c2"> 10 mi. </div></div>
+    <div class="prefix_6 grid_6"><div class="filterchoice" id="c3"> 25 mi. </div></div>
+    <div class="grid_6 suffix_5"><div class="filterchoice" id="c4"> 50 mi. </div></div>
+    
+    <div class="skipbutton" id="skip"></div>
+
+    <script>
+        var selectionArr = [], curText;
+        var curSelection = 'Distance';
+        var questionText = document.getElementById('questionText');
+
+        // making objects for selection squares in the middle
+        var skip = document.getElementById('skip');  
+        var back = document.getElementById('back');
+        var c1 = document.getElementById('c1');
+        var c2 = document.getElementById('c2');
+        var c3 = document.getElementById('c3');
+        var c4 = document.getElementById('c4');
+
+        // making objects for the navigation path on top
+        var nav1 = document.getElementById('nav1');
+        var nav2 = document.getElementById('nav2');
+        var nav3 = document.getElementById('nav3');
+        var nav4 = document.getElementById('nav4');
+        var nav5 = document.getElementById('nav5');
+
+        // linking action listener
+        skip.addEventListener('click', function (e) {
+            updateText('skip', questionText, 0, c1, c2, c3, c4, curSelection, curSelection);
+            curSelection = updateSelection(curSelection);
+        }, true);
+        /*
+        back.addEventListener('click', function (e) {
+            updateText('back', questionText, 0, c1, c2, c3, c4, curSelection, curSelection);
+            curSelection = updateSelection(curSelection);
+        }, true);
+        */
+        c1.addEventListener('click', function (e) {
+            updateText(0, questionText, 1, c1, c2, c3, c4, curSelection, c1.innerHTML);
+            curSelection = updateSelection(curSelection);
+        },true);
+        c2.addEventListener('click', function (e) {
+            updateText(0, questionText, 2, c1, c2, c3, c4, curSelection, c2.innerHTML);
+            curSelection = updateSelection(curSelection);
+        },true); 
+        c3.addEventListener('click', function (e) {
+            updateText(0, questionText, 3, c1, c2, c3, c4, curSelection, c3.innerHTML);
+            curSelection = updateSelection(curSelection);
+        },true);
+        c4.addEventListener('click', function (e) {
+            updateText(0, questionText, 4, c1, c2, c3, c4, curSelection, c4.innerHTML);
+            curSelection = updateSelection(curSelection);
+        },true);
+
+        function updateText(nav, dtext, select, in1, in2, in3, in4, curSelect, ctext) {
+            var curText;
+            var skip = 0;
+            var back = 0;
+            
+            if     (nav === 'skip') {skip = 1;}
+            else if(nav === 'back') {back = 1;}
+            
+            if     (select == 1){curText = c1.innerHTML;} 
+            else if(select == 2){curText = c2.innerHTML;}
+            else if(select == 3){curText = c3.innerHTML;}
+            else if(select == 4){curText = c4.innerHTML;}
+            else                {curText = null;}
+            
+            if(curSelect == 'Distance'){
+                dtext.innerHTML = "How much are you willing to pay for?";
+                in1.innerHTML = "$";
+                in2.innerHTML = "$$";
+                in3.innerHTML = "$$$";
+                in4.innerHTML = "$$$$";
+                nav1.innerHTML = ctext;
+                nav1.style.backgroundColor = "darkgrey";
+                selectionArr[0] = curText;
+            }
+            else if(curSelect == 'Price'){
+                dtext.innerHTML = "What intensity level are you looking for?";
+                in1.innerHTML = "1-2";
+                in2.innerHTML = "3-5";
+                in3.innerHTML = "6-8";
+                in4.innerHTML = "9-10";
+                nav2.innerHTML = ctext;
+                nav2.style.backgroundColor = "darkgrey";
+                selectionArr[1] = curText;
+            }
+            else if(curSelect == 'Intensity'){
+                dtext.innerHTML = "How many people are in your group?";
+                in1.innerHTML = "Solo";
+                in2.innerHTML = "Couple";
+                in3.innerHTML = "Group";
+                in4.innerHTML = "Party";
+                nav3.innerHTML = ctext;
+                nav3.style.backgroundColor = "darkgrey";
+                selectionArr[2] = curText;
+            }
+            else if(curSelect == 'Size'){
+                dtext.innerHTML = "How much time do you have?";
+                in1.innerHTML = "Short";
+                in2.innerHTML = "Medium";
+                in3.innerHTML = "Long";
+                in4.innerHTML = "Extra Long";
+                nav4.innerHTML = ctext;
+                nav4.style.backgroundColor = "darkgrey";
+                selectionArr[3] = curText;
+            }
+            else if(curSelect == 'Duration'){
+                nav5.innerHTML = ctext;
+                nav5.style.backgroundColor = "darkgrey";
+
+                // redirect to result page after making selections
+                // window.location.href = 'results.html';
+                selectionArr[4] = curText;
+            }
+            console.log(selectionArr);
+            //console.log(curSelection);
+            if(back == 1){
+                console.log('back clicked');
+            }
+        }
+        // update currect selection based on the previous input
+        function updateSelection(curSelect){
+            if     (curSelect == 'Distance')    { curSelect = 'Price'; }
+            else if(curSelect == 'Price')       { curSelect = 'Intensity'; }
+            else if(curSelect == 'Intensity')   { curSelect = 'Size'; } 
+            else if(curSelect == 'Size')        { curSelect = 'Duration'; }
+            return curSelect;
+        }
+    </script>
+    <!-- <div class="trickdiscover"></div> -->
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!-- end .container_16 -->
+</body>
+</html>

@@ -1,0 +1,473 @@
+.backcolor {
+    height: 100%;
+    width:100%;
+}
+
+.resultspacer {
+    height:40px;
+}
+
+.curtain {
+    background-color:black;
+    opacity:0.7;   
+}
+
+.backcolor2 {
+ height:100%;;
+    background-color:#FFF;
+width:780px;
+    margin-left:90px;
+    overflow:auto;
+}
+
+.backbutton {
+ background-image:url("../img/skip_flipped_white.png");
+    height:90px;
+    width:60px;
+    margin-left:15px;
+    margin-top:280px;
+    float:left;
+    opacity:0.9;
+    
+}
+
+.backbutton:hover {
+    opacity:0.6;
+}
+
+.navback {
+ 
+    height:50px;
+    width:960px;
+    opacity:0.6;
+    
+}
+
+.navdistance {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navprice {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding-top:15px;
+}
+
+.navintensity {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navrating {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navdistance:hover, .navprice:hover, .navintensity:hover, .navrating:hover, .navgroup:hover, .navduration:hover {
+    background:red;
+    color:white;
+}
+
+.navgroup {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navduration {
+    height:45px;
+    width:15px;
+    background-color:white;
+    color:black;
+    text-align:center;
+     padding-top:15px;
+}
+
+.navspace {
+    height:15px;
+}
+
+.first_item {
+ height:160px;
+    width:100%;
+    opacity:1.0;
+
+}
+
+.second_item {
+ height:160px;
+    width:100%;
+    opacity:1.0;
+}
+
+.third_item {
+ height:160px;
+    width:100%;
+    opacity:1.0;
+}
+
+.fourth_item {
+ height:160px;
+    width:100%;
+    opacity:1.0;
+}
+
+.fifth_item {
+ height:160px;
+    width:100%;
+    opacity:1.0;
+}
+
+.sixth_item {
+ height:160px;
+    width:100%;
+    opacity:1.0;
+}
+
+.first_item:hover, .second_item:hover, .third_item:hover, .fourth_item:hover, .fifth_item:hover, .sixth_item:hover {
+    opacity:0.9;
+}
+
+.firstpic {
+    background-color:black;
+    height:100%;
+    width:50%;
+    float:left;
+}
+
+.thirdpic, .fifthpic {
+    height:100%;
+    width:50%;
+    background-color:black;
+    float:left;
+    opacity:.3;
+}
+
+
+.secondpic, .fourthpic, .sixthpic {
+    height:100%;
+    width:50%;
+    background-color:black;
+    float:left;
+    opacity:.3;
+     
+}
+
+.firstpic:hover, .thirdpic:hover, .fifthpic:hover, .secondpic:hover, .fourthpic:hover, .sixthpic:hover {
+}
+
+
+.firsttitle {
+    color:white;
+    font-size:23px;
+    height:30px;
+    width:40%;
+    margin-left:10px;
+    margin-top:5px;   
+}
+
+.secondtitle {
+    color:white;
+    font-size:23px;
+    height:30px;
+    width:40%;
+    margin-left:10px;
+    margin-top:5px;   
+}
+
+.sdharbor {
+    color:white;
+    font-size:17px;
+    height:30px;
+    width:40%;
+    margin-left:10px;
+    margin-top:7px;
+    padding-top:3px;
+    
+    
+}
+
+
+.firstloc {
+    color:white;
+    font-size:14px;
+    height:30px;
+    width:60%;
+    float:right;
+    margin-top:-22px;
+}
+
+.otherloc {
+    color:white;
+    font-size:15px;
+    height:30px;
+    width:55%;
+    float:right;
+    margin-top:-22px;
+}
+
+.otherloc2 {
+    color:white;
+    font-size:12px;
+    height:30px;
+    width:59%;
+    float:right;
+    margin-top:-22px;
+}
+
+.otherloc3 {
+    color:white;
+    font-size:12px;
+    height:30px;
+    width:56%;
+    float:right;
+    margin-top:-25px;
+}
+
+.otherloc4 {
+    color:white;
+    font-size:12px;
+    height:30px;
+    width:53%;
+    float:right;
+    margin-top:-23px;
+}
+
+.iconspace {
+    width:50%;
+    height:30px;
+    background-color:white;
+    margin-left:10px;
+    margin-top:7px;
+    opacity:0.9;
+    
+}
+
+.ratingbar {
+    width:38%;
+    height:30px;
+    background-color:black;
+    opacity:0.9;
+    margin-left:10px;
+    margin-right:6px;
+    margin-top:7px;
+    
+}
+
+.addfavorite {
+    height:30px;
+    float:right:
+        width:20%;
+    
+}
+
+.distance {
+ float:right;
+    font-size:18px;
+    color:white;
+    margin-top:-31px;
+    margin-right:20px;
+    border:0px solid #fff;
+    padding:3px;
+    background-color:black;
+}
+
+.stars {
+    width:100%;
+
+}
+
+.stars img {
+    margin-top:1px;
+    padding:0px;
+    width:15%;
+}
+
+.choosebutton {
+    height:90px;
+    width:60px;
+    margin-left:300px;
+    margin-top:10%;
+    color:white;
+    background-image:url(../img/skip.png);
+    
+    
+}
+
+.choosebutton:hover {
+    opacity:0.5;
+}
+
+.description {
+    font-size:12px;
+    color:white;
+    margin-left:10px;
+    margin-top:7px;
+    border:1px solid #fff;
+    padding-left:5px;
+    margin-right:8px;
+}
+
+a.favbutton {
+    background:url('sfas');
+    float:right;
+    margin-top:-40px;
+    margin-right:20px;
+    font-size:35px;
+    color:yellow;
+    
+    
+}
+
+#blackbeach {
+    background-color: black;
+}
+#blackbeachpic{
+    background-image:url('../img/blackbeach.jpg');
+    height: 100%;
+}
+
+#bayshore{
+    background-color: black;
+}
+
+#bayshorepic {
+    background-image:url('../img/bayshore.jpg');
+    height:100%;
+}
+
+#gliderport {
+    background-color:black;
+}
+
+#gliderportpic {
+    background-image:url('../img/gliderport.jpg');
+    height:100%;
+}
+
+#grasslands{
+    background-color: black;
+}
+
+#grasslandspic{
+    background-image: url('../img/grasslands.jpg');
+}
+
+#ironmountain{
+    background-color: black;
+}
+
+#ironmountainpic{
+    background-image: url('../img/ironmountain.jpg');
+    height: 100%;
+}
+
+#lajollacove{
+    background-color: black;
+}
+
+#lajollacovepic{ 
+    background-image: url('../img/lajollacove.jpg');
+    height: 100%;
+}
+
+#parasailingadven{
+    background-color: black;
+}
+
+#parasailingadvenpic{
+    background-image: url('../img/parasailingadven.jpg');
+    height: 100%;
+}
+
+#PCSkydiving{
+    background-color: black;
+}
+
+#PCSkydivingpic{
+    background-image: url('../img/PCSkydiving.jpg');
+    height: 100%;
+}
+
+#sdharborkayaking{
+    background-color: black;
+}
+
+#sdharborkayakingpic{
+    background-image: url('../img/sdharborkayaking.jpg');
+    height: 100%;
+}
+
+#rating1 {
+ background-image: url('../img/rating4.png');    
+    height:100%;
+    margin-left:3px;
+}
+
+#icons1a {
+    background-image: url('../img/activityicons/DurationLong.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:3px;
+}
+
+#icons1b {
+    background-image: url('../img/activityicons/GroupCouple.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:30px;
+    margin-top:-30px;
+}
+
+#icons1c {
+    background-image: url('../img/activityicons/Intensity9.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:60px;
+    margin-top:-30px;
+}
+
+#icons1d {
+    background-image: url('../img/activityicons/PriceExpensive.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-left:90px;
+    margin-top:-30px;
+}
+
+#fav1 {
+    background-image: url('../img/activityicons/Favorite.png');
+    background-position:left 0px;
+    background-repeat:no-repeat;
+    height:100%;
+    margin-top:-30px;
+    margin-left:90%;
+}
+
+.darken {
+    background-color:black;
+}
+

@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+  
+  <meta charset="utf-8" />
+  <title>Gliderport - Fierce</title>
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/fierce.css" />
+  <link rel="stylesheet" href="css/locationprofile.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script language="JavaScript" type="text/javascript">
+    function login(showhide){
+      if(showhide == "show"){
+       document.getElementById('popupbox').style.visibility="visible";
+      }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#show_div").mouseover(function() { $("#popupabout").css('visibility','visible'); });
+      $("#show_div").mouseout(function() { $("#popupabout").css('visibility','hidden'); });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container_24 headercolor">
+    <div class="grid_1">
+      <div class="iconbar">
+        <a href="#"><p><img src="img/homesearch.png" class="icon" /></p></a>
+      </div>
+    </div>
+  <div class="grid_1">
+     <div class="iconbar">
+        <a href="#"><p><img src="img/homeabout.png" class="icon" /></p></a>
+    </div>
+  </div>
+  <div class="grid_1 suffix_15">
+    <div class="iconbar">
+      <a href="#"><p><img id="show_div" src="img/homehelp.png" class="icon" /></p></a>
+    </div>
+  </div>
+
+  <div id="popupabout"> 
+    With San Diego's gorgeous weather, there's no need to stay indoors. <b>Fierce</b> is a website designed to help you create your own outdoor adventure.
+  </div> 
+
+  <div id="popupbox"> 
+    <form name="login" action="" method="post">
+      <center>
+        Username:
+          <input name="username" size="14" />
+        Password:
+          <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="Login" />
+      </center>
+    </form>
+    <br />
+    <center><div class="loginline"></div></center>
+    <center>Not registered? <a href="profile.html">Sign up</a>.</center>
+    <center><a href="javascript:login('hide');">Close.</a></center> 
+  </div>  
+ 
+  <div class="prefix_4 grid_2 loginbar">
+    <div class="p1 logroll"><a href="javascript:login('show');" class="hoverbar goingup">login</a></div>
+  </div>
+  
+  <div class="prefix_9 grid_7 suffix_8 logo">
+    <a href="index.html"><img src="img/logo.png"></a>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+  
+  <!-- end navigation -->
+  <div class="grid_24">
+    <div class="locationslideshow" style="background-image: url(http://www.city-data.com/forum/members/rd5050-202436-albums-san-diego-pic21052-la-jolla-cove.jpg); background-repeat: no-repeat; background-position: 0px -180px;">
+      <div class="prefix_22 grid_2">
+        <div class="locationfavorite">
+          <br>
+          <center><img src="img/favorite.png" /></center>
+        </div>
+      </div>
+      
+      <div class="grid_24">
+        <div class="space3"></div>
+      </div>
+
+      <div class="prefix_1 grid_1">
+        <div class="slidearrow">
+          <center>&#65513;</center>
+        </div>
+      </div>
+      <div class="prefix_20 grid_1">
+        <div class="slidearrow">
+          <center>&#65515;</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_22 suffix_1">
+    <font class="locationtitle">Swimming at La Jolla Coves</font> <font style="font-size: 18px; color: #606060;">1110 Coast Blvd, La Jolla, CA 92037 </font>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_4">
+    <div class="locationrating">
+      <center><img style="padding-left: 3px" src="img/rating5.png" /></center>
+    </div>
+  </div>
+  <div class="grid_17">
+    <div class="locationicons">
+      <img src="img/durationshort.png" /> <img src="img/grouplarge.png" /> <img src="img/intensity5.png" /> <img src="img/pricecheap.png" />
+    </div>
+  </div>
+  <div class="grid_1 suffix_1">
+    <div class="locationshare">
+      <img src="img/share.png" />
+    </div>
+  </div>
+
+  <div class="prefix_1 grid_21">
+    <div class="locationbody">
+      <font class="headline">Description</font><br>
+      One of the best open water swimming spots in Southern California for intermediate to advanced swimmers. La Jolla Cove is a hotspot for swimmers, snorkelers, and kayakers alike with its beautiful views of the San Diego coastline and abundant wildlife. Wearing a wetsuit is recommended but is not required. <br><br>
+
+      <font class="headline">Reviews</font> <font class="headlinethin">(2)</font><br>
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://cdn-assets.alltrails.com/uploads/photo/image/10822667/medium_square_.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Mike S.</font><br>
+          9/1/14<br>
+        <img src="img/rating5.png" width="90%" />
+      </p>
+      <p style="text-align:left;"> 
+        I had the opportunity to swim two days in early Oct 2008 at the La Jolla Cove. There is a 100 yard wide swimming channel that leads out from the beach towards Scripps Pier (about 2 miles away.) There is a buoy at 1/4 mile out, and 1/2 mile out (there may be one past that spot, but I turned around at the 1/2 mile mark.) On day one, the water was clear (visibility 25+feet), flat, no wind, minimal kelp, lots of small fish near shore, and a perfect experience. On day two, there was some chop and a swell. Visibility was about 12 feet. The water temp both days was near 65 to 68. I wore a wetsuit, but many people did not. There is a lifeguard tower watching you as you swim. If you're a swimmer and enjoy open water, this is mecca on the west coast.
+      </p>
+
+      <hr class="style-one"><br>
+
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://cdn-assets.alltrails.com/uploads/photo/image/10962178/medium_square_.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">David M.</font><br>
+          9/1/14<br>
+        <img src="img/rating5.png" width="90%" />
+      </p>
+      <p style="text-align:left;">
+      We had our 10 year old grandson along with us on this trip, so this was the perfect spot for us both to enjoy water and sun. There is a small cave area with tide pools for exploring, and you actually swim along side seals (or were they sea lions?). It was fun for all!
+      </p>
+
+    </div>
+  </div>
+
+</div>
+<!-- end .container_16 -->
+</body>
+</html>

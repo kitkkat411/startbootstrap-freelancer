@@ -1,0 +1,236 @@
+.land {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickland.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.water {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickwater.png);
+  background-repeat: no-repeat;
+  color:#FFF;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.air {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickair.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px -70px;
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.land:hover, .water:hover, .air:hover, .hanggliding:hover, .parasailing:hover, .skydiving:hover, .jumping:hover, .hiking:hover, .biking:hover,
+.running:hover, .swimming:hover, .surfing:hover, .kayaking:hover, .snorkeling:hover, .climbing:hover {
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.biking {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickbiking.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.climbing {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickclimbing.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hiking {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickhiking.png);
+  background-repeat: no-repeat;
+  color: #2a2a2a;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.running {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickrunning.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.kayaking {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickkayaking.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.snorkeling {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quicksnorkeling.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.surfing {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quicksurfing.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.swimming {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickswimming.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hanggliding {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickhanggliding.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.jumping {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickjumping.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skydiving {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickskydiving.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.parasailing {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #000;
+  background-image: url(../img/quickparasailing.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#landoptions, #airoptions, #wateroptions {
+    
+    display:none;
+}

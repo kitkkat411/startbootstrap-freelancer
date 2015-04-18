@@ -1,0 +1,145 @@
+.profilesettings {
+    
+  height: 15px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #000;
+  background-color: #d9d9d9;
+  color: #606060;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 5px;
+  margin-top: 16px;
+opacity:0.75;
+}
+
+.profilesettings:hover {
+      background-color: #AFAFAF;
+  text-decoration: none !important;
+    color:white;
+    
+}
+
+.profilemenubutton {
+      background-color: #d9d9d9;
+  border: 1px solid #000;
+  height: 230px;
+  line-height: 230px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  color: #606060;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 10px;
+    opacity:0.75;
+       
+}
+
+#discovericon {
+    background-image:url(../img/activityicons/ProfileDiscover.png);
+    background-repeat:no-repeat;
+    margin-top:-190px;
+    margin-left:40px;
+    height:150px;
+    width:140px;
+    
+}
+
+#quickstarticon {
+    background-image:url(../img/activityicons/ProfileQuickstart.png);
+    background-repeat:no-repeat;
+    margin-top:-190px;
+    margin-left:40px;
+    height:150px;
+    width:140px;
+    
+}
+
+#listicon {
+    background-image:url(../img/activityicons/ProfileLists.png);
+    background-repeat:no-repeat;
+    margin-top:-190px;
+    margin-left:40px;
+    height:150px;
+    width:140px;
+    
+}
+
+#submiticon {
+    background-image:url(../img/activityicons/ProfileSubmit.png);
+    background-repeat:no-repeat;
+    margin-top:-190px;
+    margin-left:40px;
+    height:150px;
+    width:140px;
+    
+}
+
+.menuicons {
+    background-image:url(../img/ProfileDiscover.png);
+    background-repeat:no-repeat;
+    margin-top:-190px;
+    margin-left:40px;
+    height:150px;
+    width:140px;
+    
+}
+
+.profilemenubutton:hover {
+     background-color: #AFAFAF;
+  text-decoration: none !important;
+    
+}
+
+.menuquickstart { 
+    
+    font-size:35;
+    color:black;
+        
+}
+
+.menuquickstart:hover, .menudiscover:hover, .menulists:hover, .menusubmit:hover {
+    color:black;
+}
+
+.menudiscover {
+    font-size:38;
+    color:black;
+}
+
+
+.menulists {
+    font-size:43;
+    color:black;
+}
+
+.menusubmit {
+    font-size:40;
+    color:black;
+}
+
+a.normalme {
+     text-transform: none;
+}
+
+.placement {
+    
+color:white;
+    font-size:30;
+     font-family: 'Open Sans', sans-serif;
+    padding-bottom:15px;
+    margin-left:30px;
+    font-style:italic;
+}
+
+.menuspace {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+}
+    

@@ -1,0 +1,386 @@
+.bg  {
+  background-image:url('../img/bgpic.jpg');
+  height: 100%;
+  width: 100%;
+  display: inline;
+  float: left;
+}
+
+.bg1  {
+  background-image:url('../img/bgpic.jpg');
+  height: 630px;
+  width: 100%;
+  display: inline;
+  float: left;
+}
+
+.bgblur {
+  background-image:url('../img/bgblurpic.jpg');
+  height: 625px;
+  width: 100%;
+  display: inline;
+  float: left;
+}
+
+.logo {
+  width: 300px;
+  height: 150px;
+  margin-top:-30px;
+  padding-bottom:20px;
+}
+
+.headercolor {
+  background-color:#FBFCF8;
+}
+
+.homequote {
+  vertical-align: middle;
+  position: center;
+  height: 100px;
+  width: 100%;
+}
+
+a.signup {
+  font-size: 25px;
+  padding: 3px;
+}
+
+.loginline {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: -20px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 300px;
+}
+
+.trick2 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.trickdiscover {
+  display: inline-block;
+  vertical-align: middle;
+  height: 0px;
+  
+  }
+
+.loginbar {
+  padding-top: 15px;
+}
+
+.iconbar {
+  padding-top:0px;
+  border: 0px;
+}
+
+.space {
+  display: inline-block;
+  vertical-align: middle;
+  height: 180px;
+}
+
+.space2 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.spacebutton {
+  display: inline-block;
+  vertical-align: middle;
+  height: 25px;
+}
+
+a.iconsearch {
+ background: url("img/HomeSearch.png");   
+}
+
+a.iconsearch:hover {
+ background: url("img/HomeSearch_i.png");   
+}
+
+.discoverbutton {
+  background-color: #C8192A;
+  height: 100px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.quickstartbutton {
+  background-color: #C8192A;
+  height: 100px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.discover {
+  background-color: #911628;
+  height: 100px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.quickstart {
+  background-color: #911628;
+  height: 100px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.discoverbutton:hover, .quickstartbutton:hover {
+  background-color: #911628;
+  text-decoration: none !important;
+}
+
+.filters {
+  height: 25px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.chosenfilters {
+  height: 15px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #000;
+  background-color: #d9d9d9;
+  color: #606060;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 5px;
+  margin-top: 16px;
+}
+
+.chosenfilters:hover {
+  background-color: #AFAFAF;
+  text-decoration: none !important;
+}
+
+.filterq {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+
+.filterchoice {
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+  height: 230px;
+  line-height: 230px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  color: #606060;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 10px;
+    opacity:0.75;
+}
+
+.filterchoice:hover {
+  background-color: #AFAFAF;
+  text-decoration: none !important;
+}
+
+a.menuchoice {
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+  height: 230px;
+  line-height: 230px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  color: #606060;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+a.menuchoice:hover {
+  background-color: #AFAFAF;
+  text-decoration: none !important;
+}
+
+.icon img {
+  border: 0px;
+}
+
+.icon:hover {
+ opacity:0.4;   
+}
+.box {
+  position:relative;
+  height:100px;
+  width:100px;
+  font-size: 0;
+  text-align:center;
+}
+
+
+body {
+  background: #FFF;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  border: 0px solid #666;
+  overflow: hidden;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.p1 {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 5px 0;
+  text-align: center;
+}
+
+a.goingup {
+  text-transform: uppercase; 
+}
+
+#popupbox{
+  right: 198px;
+  margin-top: 50px; 
+  padding-top: 10px;
+  width: 200px; 
+  height: 148px; 
+  position: absolute;
+  background: #dddddd; 
+  border: solid #000000 1px; 
+  z-index: 9;  
+  visibility: hidden; 
+}
+
+#popupabout{
+  right: 845px;
+  margin-top: 60px; 
+  padding: 10px;
+  width: 200px; 
+  height: 100px; 
+  position: absolute;
+  background: #dddddd; 
+  border: solid #000000 1px; 
+  z-index: 9; 
+  visibility: hidden; 
+}
+
+a.hoverbar {
+  color: #000;
+}
+
+a.hoverbar:hover {
+  color:#FFF;
+}
+
+.logroll {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 5px 0;
+  text-align: center;
+  background-color:#FFF;
+}
+
+.logroll:hover {
+    background-color:#000;
+}

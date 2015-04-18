@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+  
+  <meta charset="utf-8" />
+  <title>Gliderport - Fierce</title>
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/fierce.css" />
+  <link rel="stylesheet" href="css/locationprofile.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script language="JavaScript" type="text/javascript">
+    function login(showhide){
+      if(showhide == "show"){
+       document.getElementById('popupbox').style.visibility="visible";
+      }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#show_div").mouseover(function() { $("#popupabout").css('visibility','visible'); });
+      $("#show_div").mouseout(function() { $("#popupabout").css('visibility','hidden'); });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container_24 headercolor">
+    <div class="grid_1">
+      <div class="iconbar">
+        <a href="#"><p><img src="img/homesearch.png" class="icon" /></p></a>
+      </div>
+    </div>
+  <div class="grid_1">
+     <div class="iconbar">
+        <a href="#"><p><img src="img/homeabout.png" class="icon" /></p></a>
+    </div>
+  </div>
+  <div class="grid_1 suffix_15">
+    <div class="iconbar">
+      <a href="#"><p><img id="show_div" src="img/homehelp.png" class="icon" /></p></a>
+    </div>
+  </div>
+
+  <div id="popupabout"> 
+    With San Diego's gorgeous weather, there's no need to stay indoors. <b>Fierce</b> is a website designed to help you create your own outdoor adventure.
+  </div> 
+
+  <div id="popupbox"> 
+    <form name="login" action="" method="post">
+      <center>
+        Username:
+          <input name="username" size="14" />
+        Password:
+          <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="Login" />
+      </center>
+    </form>
+    <br />
+    <center><div class="loginline"></div></center>
+    <center>Not registered? <a href="profile.html">Sign up</a>.</center>
+    <center><a href="javascript:login('hide');">Close.</a></center> 
+  </div>  
+ 
+  <div class="prefix_4 grid_2 loginbar">
+    <div class="p1 logroll"><a href="javascript:login('show');" class="hoverbar goingup">login</a></div>
+  </div>
+  
+  <div class="prefix_9 grid_7 suffix_8 logo">
+    <a href="index.html"><img src="img/logo.png"></a>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+  
+  <!-- end navigation -->
+  <div class="grid_24">
+    <div class="locationslideshow" style="background-image: url(http://sandiegan.com/images/tp.gliderport.1.jpg); background-repeat: no-repeat; background-position: 0px -180px;">
+      <div class="prefix_22 grid_2">
+        <div class="locationfavorite">
+          <br>
+          <center><img src="img/favorite.png" /></center>
+        </div>
+      </div>
+      
+      <div class="grid_24">
+        <div class="space3"></div>
+      </div>
+
+      <div class="prefix_1 grid_1">
+        <div class="slidearrow">
+          <center>&#65513;</center>
+        </div>
+      </div>
+      <div class="prefix_20 grid_1">
+        <div class="slidearrow">
+          <center>&#65515;</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_22 suffix_1">
+    <font class="locationtitle">Torrey Pines Gliderport</font> <font style="font-size: 18px; color: #606060;">2800 Torrey Pines Scenic Dr., La Jolla, CA</font>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_4">
+    <div class="locationrating">
+      <center><img style="padding-left: 3px" src="img/rating4.png" /></center>
+    </div>
+  </div>
+  <div class="grid_17">
+    <div class="locationicons">
+      <img src="img/durationmedium.png" /> <img src="img/groupsololight.png" /> <img src="img/intensity8.png" /> <img src="img/priceexpensive.png" />
+    </div>
+  </div>
+  <div class="grid_1 suffix_1">
+    <div class="locationshare">
+      <img src="img/share.png" />
+    </div>
+  </div>
+
+  <div class="prefix_1 grid_21">
+    <div class="locationbody">
+      <font class="headline">Description</font><br>
+      Grounded in a rich history, the Torrey Pines Gliderport is San Diego's premiere location for free flight. This includes lessons, certifications, tandem flights, equipment sales, advanced learning, and service. We serve anyone looking to extend their horizons and participate in this exciting new life style. We seek to promote all forms of free flight, and make Southern California a destination for flight enthusiasts around the world.<br><br>
+
+      <font class="headline">Reviews</font> <font class="headlinethin">(2)</font><br>
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://sandiegofreeflight.com/jm170/images/tpgimages/test121013_jeff.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Jeffrey W.</font><br>
+          9/1/14<br>
+        <img src="img/rating4.png" width="90%" />
+      </p>
+      <p style="text-align:left;"> 
+        It was unlike anything I've ever experienced in my life. I got to soar above the birds and enjoy a ride better than theme parks, flying horizontal over a canyon and the coast! Steve ("Stack") is a great pilot! He made me know I was safe.
+      </p>
+
+      <hr class="style-one"><br>
+
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://sandiegofreeflight.com/jm170/images/tpgimages/test121013_bryan.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Bryan S.</font><br>
+          9/1/14<br>
+        <img src="img/rating5.png" width="90%" />
+      </p>
+      <p style="text-align:left;">
+        Absolutely AMAZING! I've lived in San Diego for at least 6 years and I can't believe it took me this long to try paragliding. The pilot was super-friendly and the views are totally amazing. I absolutely recommend trying this at least once in your life. Did I say it was totally AMAZING?!
+      </p>
+
+    </div>
+  </div>
+
+</div>
+<!-- end .container_16 -->
+</body>
+</html>

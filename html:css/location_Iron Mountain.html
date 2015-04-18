@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+  
+  <meta charset="utf-8" />
+  <title>Iron Mountain - Fierce</title>
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/fierce.css" />
+  <link rel="stylesheet" href="css/locationprofile.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+  <script language="JavaScript" type="text/javascript">
+    function login(showhide){
+      if(showhide == "show"){
+       document.getElementById('popupbox').style.visibility="visible";
+      }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden";
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#show_div").mouseover(function() { $("#popupabout").css('visibility','visible'); });
+      $("#show_div").mouseout(function() { $("#popupabout").css('visibility','hidden'); });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container_24 headercolor">
+    <div class="grid_1">
+      <div class="iconbar">
+        <a href="#"><p><img src="img/homesearch.png" class="icon" /></p></a>
+      </div>
+    </div>
+  <div class="grid_1">
+     <div class="iconbar">
+        <a href="#"><p><img src="img/homeabout.png" class="icon" /></p></a>
+    </div>
+  </div>
+  <div class="grid_1 suffix_15">
+    <div class="iconbar">
+      <a href="#"><p><img id="show_div" src="img/homehelp.png" class="icon" /></p></a>
+    </div>
+  </div>
+
+  <div id="popupabout"> 
+    With San Diego's gorgeous weather, there's no need to stay indoors. <b>Fierce</b> is a website designed to help you create your own outdoor adventure.
+  </div> 
+
+  <div id="popupbox"> 
+    <form name="login" action="" method="post">
+      <center>
+        Username:
+          <input name="username" size="14" />
+        Password:
+          <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="Login" />
+      </center>
+    </form>
+    <br />
+    <center><div class="loginline"></div></center>
+    <center>Not registered? <a href="profile.html">Sign up</a>.</center>
+    <center><a href="javascript:login('hide');">Close.</a></center> 
+  </div> 
+ 
+ 
+  <div class="prefix_4 grid_2 loginbar">
+    <div class="p1 logroll"><a href="javascript:login('show');" class="hoverbar goingup">login</a></div>
+  </div>
+  
+  <div class="prefix_9 grid_7 suffix_8 logo">
+    <a href="index.html"><img src="img/logo.png"></a>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+  
+  <!-- end navigation -->
+  <div class="grid_24">
+    <div class="locationslideshow" style="background-image: url(http://2.bp.blogspot.com/_KOCiYYbLvGA/S8M1Szz9QuI/AAAAAAAABe0/Ah0zR2frPWQ/s1600/Iron+Mountain+9.6+miles+022.jpg); background-position: 0px -500px;">
+      <div class="prefix_22 grid_2">
+        <div class="locationfavorite">
+          <br>
+          <center><img src="img/favorite.png" /></center>
+        </div>
+      </div>
+      
+      <div class="grid_24">
+        <div class="space3"></div>
+      </div>
+
+      <div class="prefix_1 grid_1">
+        <div class="slidearrow">
+          <center>&#65513;</center>
+        </div>
+      </div>
+      <div class="prefix_20 grid_1">
+        <div class="slidearrow">
+          <center>&#65515;</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_22 suffix_1">
+    <font class="locationtitle">Iron Mountain Trail</font> <font style="font-size: 18px; color: #606060;">Intersection of Hwy 67 and Poway Rd, Poway, CA 92074 </font>
+  </div>
+
+  <div class="spacebutton"></div>
+  <div class="clear"></div>
+
+  <div class="prefix_1 grid_4">
+    <div class="locationrating">
+      <center><img style="padding-left: 3px" src="img/rating4.png" /></center>
+    </div>
+  </div>
+  <div class="grid_17">
+    <div class="locationicons">
+      <img src="img/durationlong.png" /> <img src="img/grouplargelight.png" /> <img src="img/intensity6.png" /> <img src="img/pricecheap.png" />
+    </div>
+  </div>
+  <div class="grid_1 suffix_1">
+    <div class="locationshare">
+      <img src="img/share.png" />
+    </div>
+  </div>
+
+  <div class="prefix_1 grid_21">
+    <div class="locationbody">
+      <font class="headline">Description</font><br>
+     This 6.5 mile hike leads you to the foot of the mountain then up and out of the woods until you reach the summit. The ascent itself is fairly intermediate but can still leave you out of breath. The climb pays off with some breathtaking views at the top. <br><br>
+
+      <font class="headline">Reviews</font> <font class="headlinethin">(2)</font><br>
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://cdn-assets.alltrails.com/uploads/photo/image/11097129/medium_square_0c4b6608846882bd3df2484071a5f608.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Rob B.</font><br>
+          9/1/14<br>
+        <img src="img/rating5.png" width="90%" />
+      </p>
+      <p style="text-align:left;"> 
+        This hike is a great workout, and on a clear day offers great views of large areas of the county. The first half offers a long stretch with a moderate grade, then the second half has a greater climb with switchbacks, bringing you to the summit. You go through open areas and wooded areas along the seasonal stream. There is also a spring when you are on the higher elevation, though I would suggest bringing plenty of water. There are plenty of opportunities to view a variety of plants and wildlife of all sorts living in the area. On the summit you can watch hawks circling below you and there's a telescope for you to view many areas of the county and beyond.
+
+
+      </p>
+
+      <hr class="style-one"><br>
+
+      <p style="float: left; margin-right: 10px;">
+        <img src="http://cdn-assets.alltrails.com/uploads/photo/image/11026915/medium_square_.jpg" height="100px" width="100px" border="1px">
+      </p>
+      <p style="float: left; text-align:left; width: 100px">
+        <font style="text-transform: uppercase; font-size: 15px; font-weight: 700;">Dustin C..</font><br>
+          9/1/14<br>
+        <img src="img/rating4.png" width="90%" />
+      </p>
+      <p style="text-align:left;">
+       My favorite trail in San Diego. Why? 
+ 
+       1. The elevation is spread out over enough distance as to give a good workout, but not be over strenuous. This trail is much easier than Woodson in my opinion, though they seem to cover a similar distance. 
+
+       2. The scenery is quite nice (which isn't common for SD hikes).
+      </p>
+
+    </div>
+  </div>
+
+</div>
+<!-- end .container_16 -->
+</body>
+</html>
